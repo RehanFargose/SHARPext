@@ -1,12 +1,12 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyBCJc2ojKPzflrgjCf1c9PjMyLWUCLhilM",
+  apiKey: "",
   authDomain: "be-project-20b1e.firebaseapp.com",
   databaseURL: "https://be-project-20b1e-default-rtdb.firebaseio.com",
   projectId: "be-project-20b1e",
   storageBucket: "be-project-20b1e.appspot.com",
-  messagingSenderId: "477852570540",
-  appId: "1:477852570540:web:5f3d82f4f1b7e065112009",
-  measurementId: "G-DX1FPVV8W6"
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 
 
