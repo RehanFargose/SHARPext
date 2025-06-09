@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Site | Firebase</title>
+    <link rel="stylesheet" href="./repstyles.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" id="ReportSite">
+            <div class="alert">Website Reported</div>
+
+            <div class="inputBox">
+                <input type="text" id="website" placeholder="Paste Website URL here..." required>
+            </div>
+
+            <div class="inputBox">
+                <input type="email" id="emailid" placeholder="Your Email....."  required>
+            </div>
+
+            <div class="inputBox">
+                <textarea id="msgContent" cols="30" rows="10" placeholder="Reason..."></textarea>
+            </div>
+
+            <div class="inputBox">
+                <button type="submit" type="button">Report Website</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./repmail.js"></script>
+</body>
+
+</html>
