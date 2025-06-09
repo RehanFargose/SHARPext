@@ -21,13 +21,13 @@
 
 //import firebase from 'firebase';
 const firebaseConfig = {
-    apiKey: "AIzaSyBUtVDGejpbT2vyKkGXd0yMojDGfGxPfwc",
+    apiKey: "",
     authDomain: "extension-62778.firebaseapp.com",
     databaseURL: "https://extension-62778-default-rtdb.firebaseio.com",
     projectId: "extension-62778",
     storageBucket: "extension-62778.appspot.com",
-    messagingSenderId: "401405281830",
-    appId: "1:401405281830:web:55835ff789c9d3970648e7"
+    messagingSenderId: "",
+    appId: ""
   };
 // Initialize Firebase
 
